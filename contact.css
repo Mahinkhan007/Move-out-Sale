@@ -1,0 +1,24 @@
+body {
+  padding: 0px;
+  text-align: center;
+  font-family: "Londrina Sketch", serif;
+  color: #010b16;
+  font-weight: 900;
+}
+h1 {
+  font-size: 100px;
+}
+
+.link {
+  color: #00ff44;
+}
+
+.container-fluid img {
+  position: relative;
+  width: 20 rem;
+}
+
+.number {
+  font-size: 3rem;
+  color: #00ff44;
+}

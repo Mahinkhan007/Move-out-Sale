@@ -1,0 +1,91 @@
+.cover {
+  background-image: url("images/tom-sad.gif");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  font-family: "Londrina Sketch", serif;
+  color: #010b16;
+  font-weight: 900;
+}
+
+.cover h1 {
+  font-family: "Londrina Sketch", serif;
+  font-weight: 900;
+  font-style: normal;
+  padding-left: 50px;
+  font-size: 7rem;
+  max-width: 300px;
+  margin: 0;
+}
+
+.cover p {
+  max-width: 1200px;
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 200;
+  padding: 3px;
+  border: 1px solid white;
+
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.containerr {
+  padding: 20px;
+}
+h2 {
+  font-family: "Londrina Sketch", serif;
+  font-weight: 900;
+  font-style: normal;
+  padding-top: 50px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+h6 {
+  font-size: 12px;
+  padding-left: 10px;
+  margin-left: 30px;
+  font-weight: 100;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.h2part {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 0;
+}
+.h2part img {
+  border: 3px solid #010b16;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lastcon {
+  text-align: center;
+  font-family: "Londrina Sketch", serif;
+  color: #010b16;
+  font-weight: 900;
+}
+
+.lastcon img {
+  border: 3px solid #010b16;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
