@@ -232,3 +232,7 @@ function addCardsToContainer(containerId) {
 window.onload = () => {
   addCardsToContainer("card-container");
 };
+
+document.querySelectorAll('img').forEach(img => {
+  img.style.transform = 'rotate(0deg)';
+});
