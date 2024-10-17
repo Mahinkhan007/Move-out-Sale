@@ -62,7 +62,7 @@ function addCardsToContainer(containerId) {
       description:
         "Strong and sturdy gaming/reading table. Kept very clean and no damaged section.",
       price: "RM 70",
-      status: "Available",
+      status: "Sold",
       imagePaths: [
         "images/study table/IMG_1586.png",
         "images/study table/IMG_1583.png",
@@ -75,7 +75,7 @@ function addCardsToContainer(containerId) {
       description:
         "27 inch IPS 2K 165hz 1ms HDR10 Gaming monitor with built in Speaker. Looks like brand new with not a single scratch on it.\n Shopee link- https://my.shp.ee/YFxHWZ5",
       price: "RM 700",
-      status: "Available",
+      status: "Sold",
       imagePaths: [
         "images/monitor/IMG_1540.png",
         "images/monitor/IMG_1537.png",
@@ -116,7 +116,7 @@ function addCardsToContainer(containerId) {
       description:
         "Chair is in great shape, arms and chair itself are reclinable. No torn fabric or such. Official link-https://ttracing.my/products/ttracing-swift-x-2020-air-threads-fabric-gaming-chair",
       price: "RM 185",
-      status: "Available",
+      status: "Sold",
       imagePaths: [
         "images/gaming chair/IMG_1652.png",
         "images/gaming chair/IMG_1656.png",
@@ -130,7 +130,7 @@ function addCardsToContainer(containerId) {
       title: "Metal Shelf/Storage",
       description: "Sturdy",
       price: "RM 18",
-      status: "Available",
+      status: "Sold",
       imagePaths: ["images/shelf/IMG_1580.png"],
     },
     {
@@ -147,14 +147,14 @@ function addCardsToContainer(containerId) {
       title: "Very wide mirror👍",
       description: "Clean👍",
       price: "RM 25",
-      status: "Available",
+      status: "Sold",
       imagePaths: ["images/wide mirror/IMG_1662.png"],
     },
     {
       title: "Very tall mirror👍",
       description: "No scratch👍, metal and heavy stand",
       price: "RM 38",
-      status: "Available",
+      status: "Sold",
       imagePaths: ["images/tall mirror/IMG_1661.png"],
     },
     {
@@ -173,14 +173,14 @@ function addCardsToContainer(containerId) {
       description:
         "Still under warranty but then AGAIN, lost the warranty card xD. Does its job great. Shopee link- https://my.shp.ee/LgERxea",
       price: "RM 115",
-      status: "Available",
+      status: "Sold",
       imagePaths: ["images/oven/IMG_1638.png"],
     },
     {
       title: "Giant hypermall PVC Storage",
       description: "Lovely condition",
       price: "RM 25",
-      status: "Available",
+      status: "Sold",
       imagePaths: [
         "images/storage/IMG_1632.png",
         " images/storage/IMG_1633.png",
@@ -191,7 +191,7 @@ function addCardsToContainer(containerId) {
       title: "Gaming laptop cooling fan",
       description: "Barely used.",
       price: "RM 13",
-      status: "Available",
+      status: "Pending",
       imagePaths: [
         "images/laptop fan/IMG_1533.png",
         "images/laptop fan/IMG_1534.png",
@@ -208,7 +208,7 @@ function addCardsToContainer(containerId) {
       title: "Yonex pro badminton racket",
       description: "no scratch on the racket, although grip needs changing.",
       price: "RM 45",
-      status: "Available",
+      status: "Sold",
       imagePaths: [
         "images/badminton/IMG_1663.png",
         "images/badminton/IMG_1664.png",
@@ -233,6 +233,6 @@ window.onload = () => {
   addCardsToContainer("card-container");
 };
 
-document.querySelectorAll('img').forEach(img => {
-  img.style.transform = 'rotate(0deg)';
+document.querySelectorAll("img").forEach((img) => {
+  img.style.transform = "rotate(0deg)";
 });
